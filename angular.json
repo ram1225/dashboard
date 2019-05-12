@@ -28,7 +28,7 @@
             ],
             "styles": [
               "src/styles.sass",
-              "assets/fonts/Roboto.css",
+              "src/assets/fonts/Roboto.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []

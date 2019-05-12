@@ -8,15 +8,15 @@ import { Router } from '@angular/router';
 })
 export class PostComponent implements OnInit {
   title: string = "This is first post";
-  @Input('id') Id: number;
+  @Input('post') post: any;
   constructor(public router: Router) { }
 
   ngOnInit() {
   }
 
   openViewDetails(){
-    console.log(this.Id);
-    this.router.navigateByUrl('/details/'+this.Id);
+    console.log(this.post);
+    this.router.navigateByUrl('/details/'+this.post.id);
   }
 
 }
